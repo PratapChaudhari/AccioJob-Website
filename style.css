@@ -15,10 +15,16 @@
     color: #fff;
     background-color: #2f80ed;
 }
+.btn:hover{
+    background-color: lightgrey;
+}
+.dropdown-menu:hover{
+    background-color: lightgrey;
+}
 header {
     position:sticky;
     top:0px;
-    z-index: 10000px; 
+    z-index: 100000000000px; 
     justify-content: center;
    
 }
@@ -1157,37 +1163,7 @@ a {
 .text-wrapper-2:hover{
     background-color: lightblue;
 }
-@media screen and (max-width:880px){
-    
-    
-    .hero-section{
-        display: flex;
-        flex-direction:column-reverse;
-        align-items: center;
-        margin-top: 300px;
-    
-    
-}
-.title{
-    display: flex;
-    flex-direction:column-reverse;
-    align-items: center;
-    
 
-
-}
-
-.course-cards
-{
-    display:flex;
-    flex-direction: column-reverse;
-    align-items:top;
-}
-
-
-
-
-}
 @media screen and (max-width:480px){
     
     
